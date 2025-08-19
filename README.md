@@ -1,29 +1,29 @@
-# Arkham Horror Card Translator
+# Tradutor de Arkham Horror Card Game
 
-A Python-based project to extract JSON card data, convert it to CSV, and translate content into **Brazilian Portuguese** using the OpenAI GPT API, preserving game terminology and formatting.
+Um projeto em Python para extrair dados de cartas em JSON, converter em CSV e traduzir o conteúdo para **português do Brasil** usando a API GPT da OpenAI, preservando a terminologia e a formatação do jogo.
 
 ---
 
-## 👂 Project Structure
+## 📂 Estrutura do Projeto
 
 ```
 project/
 ├── Dockerfile
 ├── docker-compose.yml
-├── json_to_csv.py           # Converts JSON files to CSV
-├── translate_csv.py         # Translates CSV content using GPT
-├── source/                  # Input JSON files
+├── json_to_csv.py           # Converte arquivos JSON em CSV
+├── translate_csv.py         # Traduz o conteúdo do CSV usando GPT
+├── source/                  # Arquivos JSON de entrada
 ├── app/
-│   └── glossary/            # Glossary JSON files to preserve terms
-└── out/                     # Output folder for CSVs
+│   └── glossary/            # Arquivos JSON de glossário para preservar termos
+└── out/                     # Pasta de saída para os CSVs
 ```
 
 ---
 
-## 🛠 Features
+## 🛠 Funcionalidades
 
-* Converts multiple JSON files from `/source` into a single CSV.
-* Preserves only relevant fields:
+* Converte múltiplos arquivos JSON de `/source` em um único CSV.
+* Preserva apenas os campos relevantes:
 
   * `code`
   * `name`
@@ -33,91 +33,91 @@ project/
   * `flavor`
   * `back_text`
   * `back_flavor`
-* Translates CSV content into Brazilian Portuguese using GPT.
-* Glossary-based term replacement ensures consistent translations.
-* Batches multiple rows per API call to save tokens.
-* Dockerized for easy reproducibility.
+* Traduz o conteúdo do CSV para português do Brasil usando GPT.
+* Substituição baseada em glossário garante traduções consistentes.
+* Processa múltiplas linhas por chamada de API para economizar tokens.
+* Dockerizado para fácil reprodução.
 
 ---
 
-## ⚡ Requirements
+## ⚡ Requisitos
 
 * Docker & Docker Compose
-* OpenAI API key
+* Chave da API OpenAI
 
 ---
 
-## 👳 Docker Setup
+## 🐳 Configuração Docker
 
-1. **Build Docker image:**
+1. **Construir a imagem Docker:**
 
 ```bash
 docker compose build
 ```
 
-2. **Set your OpenAI API key** (either in `.env` or environment variable):
+2. **Definir sua chave da API OpenAI** (no `.env` ou como variável de ambiente):
 
 ```bash
-export OPENAI_API_KEY="your_api_key_here"
+export OPENAI_API_KEY="sua_chave_aqui"
 ```
 
 ---
 
-## 🚀 Usage
+## 🚀 Uso
 
-### 1️⃣ Extract JSON → CSV
+### 1️⃣ Extrair JSON → CSV
 
 ```bash
 docker compose run --rm extract
 ```
 
-* Output CSV will be saved in `/out/output.csv`.
+* O CSV de saída será salvo em `/out/output.csv`.
 
-### 2️⃣ Translate CSV → Translated CSV
+### 2️⃣ Traduzir CSV → CSV Traduzido
 
 ```bash
 docker compose run --rm translate
 ```
 
-* Uses `/out/output.csv` as input.
-* Produces `/out/output_translated.csv`.
+* Usa `/out/output.csv` como entrada.
+* Gera `/out/output_translated.csv`.
 
 ---
 
-## 🗑 Glossary
+## 📝 Glossário
 
-* Place glossary JSON files in `/glossary/`.
-* Each file should be a JSON mapping of English → Portuguese terms, for example:
+* Coloque os arquivos JSON de glossário em `/app/glossary/`.
+* Cada arquivo deve mapear termos em inglês → português, por exemplo:
 
 ```json
 {
-  "Skull": "Caveira",
-  "Cultist": "Sectário"
+  "Doom": "Perdição",
+  "Clue": "Pista"
 }
 ```
 
-* Terms will be replaced by placeholders during translation to **save tokens and ensure consistency**.
+* Os termos serão substituídos por placeholders durante a tradução para **economizar tokens e garantir consistência**.
 
 ---
 
-## ⚙ Configuration
+## ⚙ Configuração
 
-* **Batch size** for translation can be adjusted in `translate_csv.py` via `BATCH_SIZE`.
-* **Output folder**: `/out`
-* **Source folder**: `/source`
-* **Glossary folder**: `/glossary`
-
----
-
-## 🤠 Notes
-
-* Translations are deterministic (`temperature=0`) for reproducibility.
-* Placeholders ensure symbols, formatting, and game terms remain intact.
-* Supports batch processing to reduce API calls and token usage.
+* O **tamanho do lote** para tradução pode ser ajustado em `translate_csv.py` através de `BATCH_SIZE`.
+* **Pasta de saída**: `/out`
+* **Pasta de origem**: `/source`
+* **Pasta de glossário**: `/app/glossary`
 
 ---
 
-## 🔗 References
+## 🧠 Observações
+
+* As traduções são determinísticas (`temperature=0`) para garantir reprodutibilidade.
+* Placeholders garantem que símbolos, formatação e termos do jogo permaneçam intactos.
+* Suporta processamento em lote para reduzir chamadas de API e uso de tokens.
+
+---
+
+## 🔗 Referências
 
 * [OpenAI Python SDK](https://github.com/openai/openai-python)
 * [Arkham Horror: The Card Game](https://www.fantasyflightgames.com/en/products/arkham-horror-card-game/)
