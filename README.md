@@ -10,8 +10,8 @@ Um projeto em Python para extrair dados de cartas em JSON, converter em CSV e tr
 project/
 ├── Dockerfile
 ├── docker-compose.yml
-├── converter.py           # Converte arquivos JSON em CSV
-├── translator.py         # Traduz o conteúdo do CSV usando GPT
+├── converter.py             # Converte arquivos JSON em CSV
+├── translator.py            # Traduz o conteúdo do CSV usando GPT
 ├── source/                  # Arquivos JSON de entrada
 ├── glossary/                # Arquivos JSON de glossário para preservar termos
 └── out/                     # Pasta de saída para os CSVs
