@@ -119,4 +119,4 @@ docker compose run --rm translate
 ## 🔗 Referências
 
 * [OpenAI Python SDK](https://github.com/openai/openai-python)
-* [Arkham Horror: The Card Game](https://www.fantasyflightgames.com/en/products/arkham-horror-card-game/)
+* [Arkham Horror: The Card Game](https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/)
