@@ -1,20 +1,20 @@
 services:
-  arkhamdb-translator:
+  arkham-base:
     build: .
+    volumes:
+      - ./source:/app/source
+      - ./out:/app/out
+      - ./glossary:/app/glossary
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
-    volumes:
-      - ./source:/data/source:ro
-      - ./out:/app/out
-      - ./glossary.json:/app/glossary.json
-      - cache_volume:/app/.cache
-    command:
-      [
-        "--root", "/data",
-        "--out", "/app/out",
-        "--glossary", "/app/glossary.json",
-        "--cache", "/app/.cache/cache.sqlite"
-      ]
+    command: bash
 
-volumes:
-  cache_volume:
+  converter:
+    extends:
+      service: arkham-base
+    command: python converter.py
+
+  translator:
+    extends:
+      service: arkham-base
+    command: python translator.py

@@ -1,0 +1,245 @@
+code,name,subname,text,traits,flavor,back_text,back_flavor
+07152,Keen Eye,,"[free] Spend 2 resources: You get +1 [intellect] until the end of the phase.
+[free] Spend 2 resources: You get +1 [combat] until the end of the phase.",Talent.,,,
+07153,Radiant Smite,,"<b>Fight.</b> You may use [willpower] instead of [combat] for this attack. When you initiate this attack, search the chaos bag for up to 3 [bless] tokens, and seal them here. For each [bless] token sealed on Radiant Smite, you get +1 skill value and deal +1 damage for this attack. If this attack defeats the attacked enemy, return the sealed tokens to the token pool. Otherwise, release them.",Spell. Spirit. Blessed.,,,
+07154,The Truth Beckons,,"Play only if you are not engaged with an enemy.
+<b>Move.</b> Choose an unrevealed location. Move (one location at a time) along the shortest path toward that location, until you enter that location. End this effect if you reveal a location, if an enemy engages you, or if your movement is blocked.",Insight.,,,
+07155,Gaze of Ouraxsh,,"Reveal 7 random chaos tokens from the chaos bag. Deal a total of 1 damage plus 1 additional damage for each [curse] or [auto_fail] token revealed, divided as you choose among enemies at your location. This action does not provoke attacks of opportunity.",Spell. Cursed.,,,
+07156,Priest of Two Faiths,,"[reaction] After Priest of Two Faiths enters play: Add 3 [bless] tokens to the chaos bag.
+<b>Forced</b> - At the end of the upkeep phase: You must either add 1 [curse] token to the chaos bag or discard Priest of Two Faiths.",Ally. Blessed. Cursed.,,,
+07157,Under Surveillance,,"Attach to your location. Limit 1 per location.
+<b>Forced</b> - After a non-[[Elite]] enemy enters attached location, discard Under Surveillance: Automatically evade that enemy and discover 1 clue at attached location. That enemy does not ready during the next upkeep phase.",Tactic. Trap.,,,
+07158,Blood Pact,,"[free] Add 1 doom to Blood Pact: You get +2 [willpower] for this skill test. (Limit once per test.)
+[free] Add 1 doom to Blood Pact: You get +2 [combat] for this skill test. (Limit once per test.)",Spell. Pact.,,,
+07159,Abyssal Tome,,"[action] Exhaust Abyssal Tome: <b>Fight.</b> You may use either [intellect] or [willpower] for this attack, instead of [combat]. When you initiate this attack, you may place 1 doom on Abyssal Tome (to a maximum of 3). You get +1 skill value and deal +1 damage for this attack for each doom on Abyssal Tome.",Item. Tome.,,,
+07160,Butterfly Effect,,"Fast. Play when a chaos token with a symbol is revealed during a skill test at your location <i>(before resolving its effects)</i>.
+You or the performing investigator may either commit a card to this skill test, or return a card they committed to this test to their hand.",Paradox. Blessed. Cursed.,,,
+07161,Third Time's a Charm,,"Fast. Play when a skill test at your location begins.
+Twice during this test, when an investigator reveals a chaos token, they may cancel it, return it to the chaos bag, and reveal a new chaos token.",Spirit.,,,
+07162,Manipulate Destiny,,"Reveal tokens from the chaos bag until you reveal a [curse], [auto_fail], [bless], or [elder_sign] token. If you revealed...
+- ...a [curse] or [auto_fail] token, deal 2 damage to an enemy at your location.
+- ...a [bless] or [elder_sign] token, heal 2 damage from an investigator or [[Ally]] asset at your location.
+This action does not provoke attacks of opportunity.",Spell.,,,
+07189,Enchanted Armor,,"Play Enchanted Armor under the control of any investigator at your location.
+<b>Forced</b> - After damage and/or horror is placed on Enchanted Armor: The owner of Enchanted Armor tests [willpower] (X), where X is the total amount of damage and horror on it. If the test fails, discard Enchanted Armor and assign the damage and/or horror just placed on it elsewhere.",Ritual. Armor.,,,
+07190,Blessing of Isis,,"[reaction] When a second [bless] token is revealed during a single skill test at your location, exhaust Blessing of Isis: Cancel that token and treat it as if it were a [elder_sign] token instead. Return both of those tokens to the chaos bag after this test ends.",Ritual. Blessed.,,,
+07191,Cryptic Grimoire,Text of the Elder Herald,"Researched.
+[reaction]: After you resolve 1 or more [curse] tokens during a skill test: Place that many secrets on Cryptic Grimoire.
+[reaction] When you play an [[Insight]] event during your turn, spend 2 secrets: That event gains fast. Reduce its cost by 1.",Item. Tome. Cursed.,,,
+07192,Cryptic Grimoire,Text of the Elder Guardian,"Researched.
+[reaction]: After you resolve 1 or more [curse] tokens during a skill test: Place that many secrets on Cryptic Grimoire.
+[reaction] When you would draw the top card of the encounter deck, spend 5 secrets: Draw a card from your deck instead.",Item. Tome. Blessed.,,,
+07193,Ríastrad,,"<b>Fight.</b> When you initiate this attack, add up to 3 [curse] tokens to the chaos bag. For each [curse] token added to the chaos bag in this way, you get +1 [combat] and deal +1 damage for this attack.",Spell. Spirit. Cursed.,,,
+07194,Tristan Botley,Fixer for Hire,"[reaction] After your turn begins: Choose two skills. Until the start of your next turn, you get +1 to each of those skills.
+[reaction] After any skill test ends in which a total of 3 or more [curse] or [bless] tokens were revealed: Play Tristan Botley from your hand, at no cost.",Ally. Criminal. Cursed.,"""Nothin's ever gonna be the same, Vito.""",,
+07195,Curse of Aeons,,"[reaction] When a second [curse] token is revealed during a single skill test at your location, exhaust Curse of Aeons: Cancel that token and treat it as if it were a [skull] token instead. You may choose to remove both of those tokens from the chaos bag after the test ends.",Ritual. Cursed.,,,
+07196,Unrelenting,,"Max 1 committed per test.
+After you commit Unrelenting to a skill test, search the chaos bag for up to 3 non-[auto_fail] chaos tokens of your choice, and seal them on Unrelenting. If all 3 tokens sealed on Unrelenting are ""+1,"", ""0,"" [bless], and/or [elder_sign] tokens, draw 2 cards. Release all tokens sealed here after this test ends.",Practiced.,,,
+07197,Signum Crucis,,"Commit only to a skill test you are performing, and only if the difficulty of that test is higher than your base skill value.
+After you commit Signum Crucis to a skill test, add X [bless] tokens to the chaos bag. X is the difference between the test's difficulty and your base skill value.",Practiced. Blessed.,,,
+07108,Riot Whistle,,"You may take an additional action during your turn, which can only be used to <b>engage</b>.",Item. Tool.,"""If you blow that thing one more time, I'm gonna make you eat it.""",,
+07109,Righteous Hunt,,"<b>Engage.</b> Choose an enemy up to 2 locations away. Move (one location at a time) to that enemy's location, engage it, and add [bless] tokens to the chaos bag equal to that enemy's horror value.",Tactic. Blessed.,Lita narrowed her eyes and tightened her grip. They wouldn't get away. Not this time. Not ever again.,,
+07110,Sacred Covenant,,"Permanent. Limit 1 [[Covenant]] per deck.
+[reaction] After an investigator at any location performs the ""reveal chaos token"" step of a skill test, exhaust Sacred Covenant: Return any number of [bless] tokens revealed during this test to the chaos bag, ignoring their modifiers for this test.",Covenant. Blessed.,,,
+07111,Eldritch Sophist,,"Uses (3 secrets).
+[fast]: Exhaust Eldritch Sophist: Move 1 secret or charge from an asset you control to another asset controlled by an investigator at your location.",Ally. Miskatonic.,"Once you let go of your assumptions, anything is possible",,
+07112,Stirring Up Trouble,,"As an additional cost to play Stirring Up Trouble, add [curse] tokens to the chaos bag equal to your location's shroud value.
+Discover 2 clues at your location.",Insight. Cursed.,"When you start following a thread, it's hard to say what you'll find at the other end.",,
+07113,Blasphemous Covenant,,"Permanent. Limit 1 [[Covenant]] per deck.
+[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust Blasphemous Covenant: Treat that token's modifier as +1 instead of its normal modifier. After this test ends, return that token to the chaos bag.",Covenant. Cursed.,,,
+07114,Breaking and Entering,,"<b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you succeed by 2 or more, you may automatically evade an enemy at this location. This action does not provoke attacks of opportunity.",Trick.,"If you're careful, it's just ""entering.""",,
+07115,Skeptic,,"During this skill test, treat the modifier of each [bless] and each [curse] token as +1 instead of its normal modifier.",Practiced.,"""Oh, hooey. What's the worst that could happen?""",,
+07116,False Covenant,,"Permanent. Limit 1 [[Covenant]] per deck.
+[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust False Covenant: Cancel that chaos token, return it to the token pool, and reveal another token.",Covenant. Cursed.,,,
+07117,Armageddon,,"Uses (3 charges).
+[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat] and deals +1 damage. If a [curse] token is revealed during this attack, you may deal 1 damage to an enemy at your location or place 1 charge on Armageddon.",Spell. Cursed.,,,
+07118,Eye of Chaos,,"Uses (3 charges).
+[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. If you succeed, discover 1 additional clue at this location. If a [curse] token is revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",Spell. Cursed.,,,
+07119,Shroud of Shadows,,"Uses (3 charges).
+[action] Spend 1 charge: <b>Evade.</b> This evasion uses [willpower] instead of [agility]. If you succeed and the evaded enemy is non-[[Elite]], you may move that enemy to a connecting location. If a [curse] token is revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows.",Spell. Cursed.,,,
+07120,Paradoxical Covenant,,"Permanent. Limit 1 [[Covenant]] per deck.
+[reaction] After an investigator at your location performs the ""reveal the chaos token"" step of a skill test, if both a [bless] token and a [curse] token were revealed during that test, exhaust Paradoxical Covenant: This test automatically succeeds. <i>(Remove each [bless] and [curse] token revealed from the chaos bag after this test ends.)</i>",Covenant. Blessed. Cursed.,,,
+07121,Mariner's Compass,,"[action] Exhaust Mariner's Compass: <b>Investigate.</b> If you succeed and have no resources in your resource pool, discover 1 additional clue at your location.
+[fast] During an investigation using Mariner's Compass, spend 1 resource: You get +1 [intellect] for this skill test. (Limit three times per investigation.)",Item. Tool.,,,
+07122,Ancient Covenant,,"Permanent. Limit 1 [[Covenant]] per deck.
+[reaction] When an investigator at your location resolves a [bless] token during a skill test, exhaust Ancient Covenant: Do not reveal another token as part of this [bless] token's effect.",Covenant. Blessed.,,,
+07301,Hallow,,"As an additional cost to play Hallow, return a total of 10 [bless] tokens to the token pool from the chaos bag or sealed on cards in play.
+Remove 1 doom from any card in play.",Spell. Blessed.,"Even in the deepest darkness, light can still bloom.",,
+07302,Holy Spear,,"[action]: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. When you initiate this ability, you may release a [bless] token sealed on Holy Spear.
+[action] Search the chaos bag for 2 [bless] tokens and seal them on Holy Spear: <b>Fight.</b> You get +4 [combat] and deal +2 damage for this attack.",Item. Weapon. Melee. Blessed.,,,
+07303,Ancestral Knowledge,,"Permanent. Exceptional.
+Your deck must include at least 10 skills. Your deck size is increased by 5.
+[reaction] Before drawing your opening hand: Attach 5 random non-weakness skills from your deck facedown to this card.
+[fast] Exhaust Ancestral Knowledge: Draw 1 attached skill.",Talent.,,,
+07304,Ariadne's Twine,,"Uses (0 secrets).
+Secrets on Ariadne's Twine can be spent as if they were on any asset controlled by an investigator at your location.
+[free] Exhaust Ariadne's Twine: Move 1 secret from an asset you control to your resource pool, as a resource, or vice versa.",Ritual.,,,
+07305,.25 Automatic,,"Fast. Uses (4 ammo).
+[action] Spend 1 ammo: <b>Fight.</b> If the attacked enemy is exhausted, you get +2 [combat] and deal +1 damage for this attack.
+[reaction] After you evade an enemy at your location: Perform the above <b>Fight</b> ability without spending an action.",Item. Weapon. Firearm. Illicit.,,,
+07306,Justify the Means,,"You may commit Justify the Means to any type of test.
+As an additional cost to commit Justify the Means to a skill test, add [curse] tokens to the chaos bag equal to this test's difficulty.
+This test automatically succeeds.",Practiced. Cursed.,,,
+07307,Lucky Dice,...Or Are They?,"Exceptional.
+[reaction] When you reveal a non-[curse], non-[auto_fail] chaos token, add 1 [curse] token to the chaos bag: Ignore the just revealed chaos token and reveal another one to resolve. If that token has a [curse] or [auto_fail] symbol, return Lucky Dice to your hand (cannot be ignored/canceled).",Item. Relic.,,,
+07308,Rite of Equilibrium,,"Either (choose one):
+- Add X [curse] tokens to the chaos bag to add X [bless] tokens to the chaos bag.
+- Remove X [curse] and X [bless] tokens from the chaos bag to heal X total horror from among cards at your location.",Spell. Blessed. Cursed.,,,
+07309,Jacob Morrison,Coast Guard Captain,"Jacob Morrison does not ready during the upkeep phase.
+[reaction] When you would fail a skill test, exhaust Jacob Morrison: You get +2 skill value for that test.
+[reaction] After a [bless] token is revealed from the chaos bag during a skill test you are performing: Ready Jacob Morrison.",Ally. Blessed.,,,
+07310,Shrine of the Moirai,,"Attach to your location. Uses (3 offerings).
+Attached location gains: ""[fast] Draw the top card of the encounter deck, exhaust Shrine of the Moirai, and spend 1 offering: Return up to 2 cards with a total combined level of 5 or less from your discard pile to your hand. Any investigator at this location may trigger this ability.""
+<b>Card design by the Moirai at Arkham Nights 2019.</b>",Fortune. Blessed. Cursed.,,,
+07220,Holy Rosary,,"You get +1 [willpower].
+[reaction] After you succeed at a [willpower] test on a treachery, exhaust Holy Rosary: Add 2 [bless] tokens to the chaos bag.",Item. Charm. Blessed.,,,
+07221,Shield of Faith,,"Seal (up to 5 [bless]). If Shield of Faith has no tokens sealed on it, discard it.
+[reaction] When an enemy attacks an investigator at your location, exhaust Shield of Faith and release a chaos token sealed here: Cancel that attack.",Spell. Blessed.,,,
+07222,Fey,,"If a [curse] token is revealed during this skill test, you may return Fey to your hand when this test ends.",Innate. Cursed.,"""Those that Hobgoblin call you and sweet Puck,
+You do their work, and they shall have good luck...
+""- William Shakespeare, <u>A Midsummer Night's Dream</u>",,
+07223,Guided by the Unseen,,"Uses (4 secrets).
+[fast] During a skill test at your location: The performing investigator may search the top 3 cards of their deck for a card that can be committed to this test. You may spend 1 secret to commit that card. Shuffle the performing investigator's deck. (Limit once per test.)",Ritual.,,,
+07224,"""Lucky"" Penny",Omen of Misfortune,"Exceptional.
+<b>Forced</b> - When you reveal a [bless] or [curse] token during a skill test you are performing: Flip a coin. On a heads, treat that token as a [bless] token. On a tails, treat that token as a [curse] token. If you treat a [bless] token as a [curse] token as a result of this effect, draw 1 card.",Item. Charm. Cursed.,,,
+07225,Eye of the Djinn,Vessel of Good and Evil,"Exceptional.
+[reaction] When you initiate a skill test during your turn, exhaust Eye of the Djinn: Set your base skill value to 5 for this test. If a [bless] token is revealed during this test, ready Eye of the Djinn. If a [curse] token is revealed during this test, you may take an additional action this turn.",Item. Relic. Blessed. Cursed.,,,
+07226,Armageddon,,"Uses (3 charges).
+[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] and deal +1 damage for this attack. For each [curse] token revealed during this attack, you may deal 1 damage to an enemy at your location or place 1 charge on Armageddon.",Spell. Cursed.,,,
+07227,Eye of Chaos,,"Uses (3 charges).
+[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this test. If you succeed, discover 1 additional clue at this location. For each [curse] token revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",Spell. Cursed.,,,
+07228,Shroud of Shadows,,"Uses (3 charges).
+[action] Spend 1 charge: <b>Evade.</b> This evasion uses [willpower] instead of [agility]. You get +2 [willpower] for this test. If you succeed and the evaded enemy is non-[[Elite]], you may move that enemy to a connecting location. For each [curse] token revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows.",Spell. Cursed.,,,
+07229,Spirit of Humanity,,"[fast] Exhaust Spirit of Humanity and take 1 damage and 1 horror: Add 2 [bless] tokens to the chaos bag.
+[fast] Exhaust Spirit of Humanity and add 2 [curse] tokens to the chaos bag: Heal 1 damage and 1 horror.",Ritual. Blessed. Cursed.,,,
+07230,Harmony Restored,,Search the chaos bag for X [curse] tokens and return them to the token pool. X is the number of [bless] tokens in the chaos bag. Gain 1 resource for each [curse] token removed in this way.,Fortune. Blessed.,"Even the skeins of fate can be untangled, for a time.",,
+07261,Enchant Weapon,,"Attach to a [[Weapon]] asset controlled by an investigator at your location. Limit 1 per asset.
+Attached asset gains the [[Relic]] trait and takes up an arcane slot in addition to its other slots.
+[reaction] When you perform a <b>Fight</b> action using attached asset, exhaust this card: Add the owner of this card's [willpower] to your [combat] for this attack. This attack deals +1 damage.",Spell. Upgrade.,,,
+07262,Nephthys,Huntress of Bast,"You get +1 [willpower].
+[reaction] When 1 or more [bless] tokens would be removed from the chaos bag during a skill test: Seal them on Nephthys, instead.
+[free] Exhaust Nephthys: Either release 3 [bless] tokens sealed on her, or return 3 [bless] tokens sealed on her to the token pool to deal 2 damage to an enemy at your location.",Ally. Blessed.,,,
+07263,The Stygian Eye,,"Fast. Play only during your turn.
+Reduce the cost to play The Stygian Eye by 1 for each [curse] token in the chaos bag.
+Until the end of the round, you get +3 to each of your skills.",Insight. Cursed.,,,
+07264,Hyperawareness,,"Uses (2 resources). Replenish these resources at the start of each round.
+[free] Spend 1 resource from your resource pool or from Hyperawareness: You get +1 [intellect] or +1 [agility] for this skill test.",Talent.,,,
+07265,Geas,,"Exceptional.
+You get +1 [willpower], +1 [intellect], +1 [combat], and +1 [agility].
+<b>Forced</b> - After Geas enters play: Make a promise using the following formula - ""I shall not (draw/play/commit) any cards during each of my turns."" If you break this promise while Geas is in play, discard it and add 10 [curse] tokens to the chaos bag.",Pact.,,,
+07266,Hard Knocks,,"Uses (2 resources). Replenish these resources at the start of each round.
+[free] Spend 1 resource from your resource pool or from Hard Knocks: You get +1 [combat] or +1 [agility] for this skill test.",Talent.,,,
+07267,Ikiaq,The Council's Chosen,"You get +1 [willpower] and +1 [intellect]. You get -1 [willpower] and -1 [intellect] for each weakness beneath Ikiaq.
+[reaction] When an investigator at your location draws a basic weakness, exhaust Ikiaq: Cancel that weakness's effects and place it facedown beneath Ikiaq. Its owner must draw it if Ikiaq leaves play.",Ally. Sorcerer.,,,
+07268,Flute of the Outer Gods,,"Exceptional. Seal (up to X [curse]).
+[action] Exhaust Flute of the Outer Gods and release 1 [curse] token sealed on it: Choose a non-[[Elite]] enemy at your location. Either move the chosen enemy to a connecting location, or deal its damage to any enemy at its location. This action does not provoke attacks of opportunity.",Item. Instrument. Relic. Cursed.,,,
+07269,A Watchful Peace,,"As an additional cost to play A Watchful Peace, search the chaos bag and/or cards in play for a total of 5 [bless] tokens and return them to the token pool.
+Fast. Play when the ""draw encounter cards"" step of the mythos phase would begin. Skip this step of the mythos phase.",Spirit. Blessed.,,,
+07270,Dig Deep,,"Uses (2 resources). Replenish these resources at the start of each round.
+[free] Spend 1 resource from your resource pool or from Dig Deep: You get +1 [willpower] or +1 [agility] for this skill test.",Talent.,,,
+07271,Favor of the Moon,,"Fast. Seal (up to 3 [curse]). If there are no tokens sealed on Favor of the Moon, discard it.
+[reaction] When you would reveal a chaos token from the chaos bag, exhaust Favor of the Moon: Resolve a token sealed here instead, as if it were just revealed from the chaos bag. Then, gain 1 resource.",Pact. Cursed.,,,
+07272,Favor of the Sun,,"Fast. Seal (up to 3 [bless]). If there are no tokens sealed on Favor of the Sun, discard it.
+[reaction] When you would reveal a chaos token from the chaos bag, exhaust Favor of the Sun: Resolve a token sealed here instead, as if it were just revealed from the chaos bag.",Pact. Blessed.,,,
+07273,Purifying Corruption,,"[reaction] When you draw a non-weakness treachery, take 1 damage and 1 horror: Cancel that card's revelation effect and place 1 resource on this card, as corruption. If this card has 3 or more corruption, remove it from the game.
+[fast] Draw the top card of the encounter deck: Either heal 1 damage and 1 horror, or remove 1 corruption from this card.",Ritual. Blessed. Cursed.,,,
+07001,Sister Mary,The Nun,"During setup, add 2 [bless] tokens to the chaos bag.
+[reaction] When the round ends: Add 1 [bless] token to the chaos bag.
+[elder_sign] effect: +1. If you succeed, add 1 [bless] token to the chaos bag.",Believer. Blessed.,"""The Lord watches over my path. I am armored in faith.""","<b>Deck Size</b>: 30.
+<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5, Mystic cards ([mystic]) level 0-2.
+<b>Deckbuilding Requirements</b> (do not count toward deck size): Guardian Angel, Crisis of Faith, 1 random basic weakness.","The more Sister Mary learns of the strange and arcane forces that sometimes manifest in this world, the more certain she is that she has been set upon a path to ward off these forces and protect the innocent wherever possible. Armed only with the trappings of her church and an unshakable faith, Sister Mary seeks out every supernatural threat she hears of through her fellow priests and nuns. Other members of her church may dismiss such things as medieval nonsense, but Sister Mary knows the real evils that exist in the shadows - and she knows that if such evils are left unchecked, they will bring ruin and horror to all of creation."
+07002,Amanda Sharpe,The Student,"<b>Forced</b> - At the start of the investigation phase: Draw 1 card. Discard the card beneath Amanda Sharpe. Choose a card from your hand and place it beneath her.
+<b>Forced</b> - At the start of a skill test you are performing: Commit the card beneath Amanda Sharpe, if able. Do not discard it when the test ends.
+[elder_sign] effect: +0. For this test, you may double the number of skill icons on the card beneath Amanda Sharpe.",Miskatonic. Scholar.,,"<b>Deck Size</b>: 30.
+<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, [[Practiced]] skills level 0-3.
+<b>Deckbuilding Requirements</b> (do not count toward deck size): Obscure Studies, Whispers from the Deep, 1 random basic weakness.","Amanda Sharpe was on track to become one of Miskatonic University's most accomplished graduates. However, ever since she saw a strange painting of an enormous creature's emergence from the depths of the ocean, her classwork has suffered. Her dreams are overwhelmed by images of a vast submerged city and whispers in a language she does not understand. She remains dedicated to her studies, but her goal is no longer to graduate at the top of her class; rather, she seeks to discover the meaning behind the occult secrets concealed between the lines of reality."
+07003,Trish Scarborough,The Spy,"[reaction] After you discover 1 or more clues at a location with an enemy: Either discover 1 additional clue at that location, or automatically evade that enemy. (Limit once per round.)
+[elder_sign] effect: +2. If this is an investigation, you may choose any revealed location; you are now investigating as if you were at that location instead.",Agency. Detective.,,"<b>Deck Size</b>: 30.
+<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, Seeker cards ([seeker]) level 0-2.
+<b>Deckbuilding Requirements</b> (do not count toward deck size): In the Shadows, Shadow Agents, 1 random basic weakness.","Trish had always excelled in both body and mind, her unwavering focus on excellence and her fearless disposition a winning combination. Given her stellar academic and athletic records, everyone expected to see her become something great. Instead, Trish took a job at a commercial code company. The initial shock of her humble work eventually wore off, and the exceptional Trish Scarborough faded into obscurity. This suited Trish just fine, as it made it harder for anyone to realize the truth: her job was a cover for her true work as a spy with the Black Chamber, the Bureau's code-breaking agency."
+07004,Dexter Drake,The Magician,"[free] During your turn, discard an asset you control: Play an asset with a different title from your hand, reducing its cost by 1. (Limit once per round.)
+[elder_sign] effect: +2. You may return an asset from your play area to your hand. Then, draw 1 card.",Sorcerer. Veteran.,"""Do you want to see true magic?""","<b>Deck Size</b>: 30.
+<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Rogue cards ([rogue]) level 0-2, Neutral cards level 0-5.
+<b>Deckbuilding Requirements</b> (do not count toward deck size): Showmanship, Occult Scraps, 1 random basic weakness.","Dexter Drake returned from the Great War to become a successful magician, enthralling audiences with his elaborate illusions and cunning stage tricks. Despite his meteoric success, Dexter longed to discover true magic. He was intrigued by the burnt and torn scraps of occult writing he had found during the war - fragments of the infamous Necronomicon. Dexter used his wealth to search for the truth about this ancient lore, and what he found horrified him. He knows that he may well be the only person with the ability to stop evil from swallowing the entire world."
+07005,Silas Marsh,The Sailor,"[reaction] After you reveal a chaos token during a skill test you are performing: Return a skill you committed to this test to your hand. (Limit once per round.)
+[elder_sign] effect: +0. You may commit a skill from your discard pile to this test. After this test ends, return that skill to your hand instead of discarding it.",Drifter.,"""Leave your fears on the docks, lads.""","<b>Deck Size</b>: 30.
+<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, [[Innate]] skills level 0-2.
+<b>Deckbuilding Requirements</b> (do not count toward deck size): Sea Change Harpoon, Silas's Net, Siren Call, 1 random basic weakness.","Silas Marsh has loved the sea ever since he was old enough to toddle through its briny shallows. Becoming a sailor was the easiest decision he ever made, and his sturdy frame and excellent sense for the weather have given him a good reputation aboard any vessel. There is only one thing troubling Silas: over and over again, he dreams of unsettling cities hidden beneath the waves and inhabited by bizarre creatures. These dreams call to him, stirring something deep within him that he thought he had left behind in his hometown of Innsmouth."
+07006,Guardian Angel,,"Sister Mary deck only.
+Guardian Angel may be assigned damage dealt to other investigators at your location and connecting locations.
+[reaction] When any amount of damage is assigned to Guardian Angel: Add that many [bless] tokens to the chaos bag.",Ritual. Blessed.,,,
+07007,Crisis of Faith,,"<b>Revelation</b> - For each [bless] token in the chaos bag, you must either replace it with a [curse] token or take 1 horror.",Madness.,,,
+07008,Obscure Studies,,"Amanda Sharpe deck only.
+Fast. Play when you initiate a skill test.
+Return the card beneath Amanda Sharpe to your hand and place Obscure Studies beneath her.",Insight.,,,
+07009,Whispers from the Deep,,"This skill's icons subtract from your skill value instead of adding to it.
+<b>Forced</b> - When choosing a card to place beneath Amanda Sharpe, if Whispers from the Deep is in your hand: You must choose it.",Curse.,,,
+07010,In the Shadows,,"Trish Scarborough deck only.
+Fast. Play after your turn begins.
+Disengage from each enemy engaged with you. Until the end of the round, enemies cannot engage you and you cannot deal damage to enemies.",Tactic.,,,
+07011,Shadow Agents,,"<b>Prey</b> - Trish Scarborough only.
+Hunter.
+While Shadow Agents is engaged with you, you cannot discover clues except by investigating.
+<b>Forced</b> - After Shadow Agents is evaded: Discard it.",Humanoid. Cultist.,,,
+07012,Showmanship,,"Dexter Drake deck only.
+[reaction] After an asset enters play under your control: Until the end of the round, you get +2 to each of your skills while resolving a triggered ability on that asset.",Talent.,,,
+07013,Occult Scraps,,"Occult Scraps cannot be played using a play action.
+While Occult Scraps is in your hand, you get -2 [willpower].
+While Occult Scraps is in play, you get -1 [willpower].",Item.,,,
+07014,Sea Change Harpoon,,"Silas Marsh deck only.
+[action]: <b>Fight.</b> You get +1 [combat] for this attack. If you committed 1 or more skills to this skill test, this attack deals +1 damage. When this skill test ends, you may return Sea Change Harpoon to your hand to return all of your committed skill cards to your hand instead of discarding them.",Item. Weapon. Melee.,,,
+07015,Silas's Net,,"Silas Marsh deck only.
+[action]: <b>Evade.</b> You get +1 [agility] for this evasion attempt. If you succeed and you committed 1 or more skills to this skill test, you may automatically evade another enemy engaged with you. When this skill test ends, you may return Silas's Net to your hand to return all of your committed skill cards to your hand instead of discarding them.",Item. Tool.,,,
+07016,Siren Call,,"<b>Revelation</b> - Put Siren Call into play in your threat area.
+As an additional cost to commit 1 or more cards to a skill test, you must pay 1 resource for each matching skill icon those cards have.
+[action] [action]: Discard Siren Call.",Curse.,,,
+07017,Book of Psalms,,"Uses (4 secrets).
+[action] Spend 1 secret: Heal 1 horror from an investigator at your location. Add 2 [bless] tokens to the chaos bag.",Item. Tome. Blessed.,,,
+07018,Blessed Blade,,"[action] If Blessed Blade is ready: <b>Fight.</b> You get +1 [combat] for this attack. If a [bless] or [elder_sign] token is revealed during this attack, this attack deals +1 damage. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 1 [bless] token to the chaos bag.",Item. Weapon. Melee. Blessed.,,,
+07019,Rite of Sanctification,,"Seal (up to 5 [bless]). If Rite of Sanctification has no tokens sealed on it, discard it.
+[reaction] When an investigator at your location plays a card, exhaust Rite of Sanctification and release a chaos token sealed on it: Reduce the cost of that card by 2.",Ritual. Blessed.,,,
+07020,Hand of Fate,,"Fast. Play when an enemy attacks an investigator at your location.
+Cancel that attack. Then, add [bless] tokens to the chaos bag equal to the attacking enemy's total combined damage and horror values.",Spell. Blessed.,,,
+07021,Cryptographic Cipher,,"Uses (3 secrets).
+[fast] Exhaust Cryptographic Cipher and spend 1 secret: <b>Investigate.</b> Your location gets +1 shroud for this investigation.
+[action] Exhaust Cryptographic Cipher and spend 1 secret: <b>Investigate.</b> Your location gets -2 shroud for this investigation.",Item. Tool.,,,
+07022,Cryptic Grimoire,Untranslated,"[action]: Add 1 [curse] token to the chaos bag.
+[action] If there are 10 [curse] tokens in the chaos bag, discard Cryptic Grimoire: Record in your Campaign Log that ""you have translated the grimoire."" Replace 5 [curse] tokens in the chaos bag with 5 [bless] tokens.",Item. Tome. Occult.,,,
+07023,Deep Knowledge,,"As an additional cost to play Deep Knowledge, add 2 [curse] tokens to the chaos bag.
+Investigators at your location draw a combined total of 3 cards <i>(you decide how many cards each investigator draws)</i>.",Insight. Cursed.,,,
+07024,Plan of Action,,"If this skill test is during or before the first action of this turn, Plan of Action gains [willpower] [agility].
+If this skill test is between the first and third actions of this turn, draw 1 card if it succeeds.
+If this skill test is during or after the third action of this turn, Plan of Action gains [combat] [intellect].",Practiced.,,,
+07025,.25 Automatic,,"Fast. Uses (4 ammo).
+[action] Spend 1 ammo: <b>Fight.</b> If the attacked enemy is exhausted, you get +2 [combat] and deal +1 damage for this attack.",Item. Weapon. Firearm. Illicit.,,,
+07026,Dark Ritual,,"Seal (up to 5 [curse]).
+<b>Forced</b> - At the end of the mythos phase: You must either spend 1 resource or discard Dark Ritual.",Ritual. Cursed.,,,
+07027,Obfuscation,,"Fast. Uses (3 charges).
+[reaction] When an enemy makes an attack of opportunity against you, spend 1 charge: Cancel that attack.",Spell.,"""Now you see me...""",,
+07028,Faustian Bargain,,"As an additional cost to play Faustian Bargain, add 2 [curse] tokens to the chaos bag.
+Investigators at your location gain a total of 5 resources, distributed as you wish.",Pact. Cursed.,,,
+07029,Sword Cane,,"Playing Sword Cane does not provoke attacks of opportunity.
+[reaction] After Sword Cane enters play: Immediately trigger its ""[action]"" ability without paying its cost.
+[action] Exhaust Sword Cane: <b>Fight</b>/<b>Evade.</b> You may use your [willpower] in place of your [combat] or [agility] for this attack or evasion attempt.",Item. Relic. Weapon. Melee.,,,
+07030,Tides of Fate,,"Fast. Play during any [fast] window, or at the start of the round.
+Replace all [curse] tokens in the chaos bag with an equal number of [bless] tokens. At the end of the round, replace all [bless] tokens in the chaos bag with an equal number of [curse] tokens.",Spell. Blessed.,,,
+07031,Ward of Radiance,,"Fast. Play when an investigator at your location draws a non-weakness treachery card.
+Reveal 5 random chaos tokens from the chaos bag.
+If a [bless] or [elder_sign] token is revealed, cancel that treachery card's revelation effect.",Insight. Blessed.,,,
+07032,Promise of Power,,"After you commit Promise of Power to a skill test, add 1 [curse] token to the chaos bag. If you cannot, take 2 horror instead.",Practiced. Cursed.,,,
+07033,Token of Faith,,"[reaction] After a skill test ends in which 1 or more [curse] or [auto_fail] tokens were revealed, exhaust Token of Faith: Add that many [bless] tokens to the chaos bag.",Item. Charm.,,,
+07034,Keep Faith,,"Fast. Play during any [fast] window.
+Add 4 [bless] tokens to the chaos bag.",Fortune. Blessed.,,,
+07035,Predestined,,"Max 1 committed per skill test.
+You may commit Predestined to any type of test.
+If this test fails, either add 2 [bless] tokens to the chaos bag or remove 2 [curse] tokens from the chaos bag.",Fortune. Blessed.,,,
+07036,Beloved,,"If a [bless] token is revealed during this test, you may remove Beloved from the game to replace that token's effects with the following: ""You automatically succeed. <i>(Do not reveal another token. Return this token to the chaos bag after this test ends)</i>.""",Innate. Blessed.,Love is perhaps the strongest spell of all.,,
+07037,Tempt Fate,,"Fast. Play during any [fast] window.
+Add 3 [curse] tokens to the chaos bag. Then, add 3 [bless] tokens to the chaos bag and draw 1 card.",Fortune. Blessed. Cursed.,,,
+07038,Accursed Follower,,"<b>Spawn</b> - Location farthest from you.
+Aloof.
+<b>Forced</b> - At the end of the enemy phase: Add 1 [curse] token to the chaos bag.",Humanoid. Cultist. Cursed.,,,
+07039,Dread Curse,,<b>Revelation</b> - Add 5 [curse] tokens to the chaos bag.,Curse.,"We all have wings, but they have not been of any avail to us and if we could tear them off, we would do so.
+ - Franz Kafka, ""The Blue Octavo Notebooks""",,
+07040,Day of Reckoning,,"<b>Revelation</b> - Attach Day of Reckoning to the current agenda. Then, search the chaos bag for an [elder_sign] token and seal it on Day of Reckoning.
+<b>Card design inspired by the events of Arkham Nights 2018.</b>",Endtimes.,,,

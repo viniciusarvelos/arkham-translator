@@ -1,10 +1,5 @@
 FROM python:3.13-slim
 
-# System deps
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
 # Set workdir
 WORKDIR /app
 
@@ -12,8 +7,12 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy script(s)
+# Copy project files
+COPY source ./source
+COPY glossary ./glossary
+COPY out ./out
+COPY converter.py .
 COPY translator.py .
 
-# Default command (can be overridden in docker-compose)
-ENTRYPOINT ["python", "translator.py"]
+# Run bash so you can choose script at runtime
+CMD ["bash"]
